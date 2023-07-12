@@ -5,11 +5,11 @@ set(CMAKE_CXX_COMPILER "g++")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
 add_executable(main
-    ${PROJECT_SOURCE_DIR}/../../Lib/Exception.cpp
-    ${PROJECT_SOURCE_DIR}/../../Lib/Curl.cpp
-    ${PROJECT_SOURCE_DIR}/../../Lib/StringOperation.cpp
+    ~/Lib/Exception.cpp
+    ~/Lib/Curl.cpp
+    ~/Lib/StringOperation.cpp
     main.cpp)
-target_include_directories(main PUBLIC ../../Lib)
+target_include_directories(main PUBLIC ~/Lib)
 
 find_library(LIBCURL curl REQUIRED)
 find_library(LIBJPEG jpeg REQUIRED)
