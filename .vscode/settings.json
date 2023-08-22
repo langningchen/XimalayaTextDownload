@@ -1,0 +1,13 @@
+{
+    "cSpell.words": [
+        "XIMALAYA"
+    ],
+    "files.associations": {
+        "string": "cpp",
+        "locale": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "new": "cpp",
+        "iosfwd": "cpp"
+    }
+}
