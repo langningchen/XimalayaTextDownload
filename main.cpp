@@ -53,14 +53,14 @@ int main()
         string FileName = "/mnt/c/Data/" + FixedTitle + ".mp4";
         cout << "正在下载：" << FileName << ": " << VideoURL << endl;
         GetDataToFile(VideoURL, "", FileName, false, "", NULL, NULL, "application/json", "", true);
-        // system("mocp -l ~/XimalayaTextDownload/Download\\ succeeds.mp3");
+        // system("mocp -l Download\\ succeeds.mp3");
     }
 
     // RTF_WRITER RTFWriter;
     // RTFWriter.SetTitle(Track.GetTitle());
     // RTFWriter.SetContent(Track.GetRichIntroduction());
     // RTFWriter.WriteToFile("/mnt/c/Data/" + FixedTitle + ".rtf");
+    system("mocp -l Download\\ failed.mp3");
     CLN_CATCH
-    system("mocp -l ~/XimalayaTextDownload/Download\\ failed.mp3");
     return 0;
 }
